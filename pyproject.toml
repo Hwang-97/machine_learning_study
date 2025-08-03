@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "machine-learning-study"
+version = "0.1.0"
+description = ""
+authors = ["Hyunwoo Hwang <qqq4472@cyber-line.co.kr>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+scikit-learn = "^1.5.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
