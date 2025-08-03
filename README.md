@@ -45,7 +45,7 @@
 
 ---
 
-## 🚀 사용법 (간편 스크립트)
+## 🚀 사용법
 
 Windows와 Linux/macOS 환경에서 쉽게 실행할 수 있는 스크립트를 제공합니다.
 [Poetry 설치](https://python-poetry.org/docs/#installation)가 먼저 필요합니다.
@@ -61,27 +61,6 @@ Windows와 Linux/macOS 환경에서 쉽게 실행할 수 있는 스크립트를 
 ### 3. 새로운 데이터 예측
 -   **Windows**: `predict.bat` 파일을 더블 클릭하여 실행하세요.
 -   **Linux/macOS**: 터미널에서 `./predict.sh` 를 실행하세요.
-
----
-
-## 🛠️ 사용법 (수동 명령어)
-
-스크립트를 사용하지 않고 직접 명령어를 실행할 수도 있습니다.
-
-### 1. 환경 설정
-```bash
-poetry install
-```
-
-### 2. 모델 학습
-```bash
-poetry run python src/train.py
-```
-
-### 3. 새로운 데이터 예측
-```bash
-poetry run python src/predict.py
-```
 
 ---
 
